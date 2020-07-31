@@ -1,0 +1,42 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+
+    "npm.packageManager": "yarn",
+
+    /**
+     * ESLint configuration
+     */
+    "eslint.packageManager": "yarn",
+
+    /**
+     * Prettier configuration
+     */
+    "prettier.semi": true,
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.trailingComma": "none",
+    "prettier.tabWidth": 2,
+    "prettier.bracketSpacing": true,
+    "prettier.jsxBracketSameLine": false,
+    "prettier.arrowParens": "always",
+    "prettier.printWidth": 90,
+    "prettier.packageManager": "yarn"
+  },
+  "extensions": {
+    "recommendations": ["esbenp.prettier-vscode"]
+  }
+}

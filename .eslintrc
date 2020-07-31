@@ -1,18 +1,20 @@
 {
-    "extends": ["react-app"],
-    /** These are optional: */
-    "rules": {
-      /** Warn if console.log are added */
-      "no-console": "warn",
-  
-      /** Enforcing rules about import ordering */
-      "import/order": [
-        "warn",
-        {
-          "groups": [["builtin", "external"], "internal", ["parent", "sibling", "index"]],
-          "newlines-between": "always-and-inside-groups"
-        }
-      ]
-    }
+  "extends": ["react-app", "plugin:prettier/recommended"],
+  /** These are optional: */
+  "rules": {
+    /** Warn if console.log are added */
+    "no-console": "warn",
+
+    /** Enforcing rules about import ordering */
+    "import/order": [
+      "warn",
+      {
+        "groups": [["builtin", "external"], "internal", ["parent", "sibling", "index"]],
+        "newlines-between": "always-and-inside-groups"
+      }
+    ]
+  },
+  "env": {
+    "jest": true
   }
-  
+}

@@ -1,1 +1,1 @@
-export { default as TikTok } from "./TikTok";
+export { default as TikTok } from './TikTok';

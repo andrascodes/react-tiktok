@@ -66,7 +66,7 @@ export default function TikTok({ url }: TikTokProps) {
   useEffect(() => {
     fetchRetry(`${TIKTOK_OEMBED_BASE_URL}?url=${url}`, {
       retries: 3,
-      retryDelay: (attempt) => 2 ** attempt * 1000,
+      retryDelay: (attempt) => 2 ** attempt * 1000
     })
       .then((res) => res.json())
       .then((res) => {
@@ -102,4 +102,3 @@ export default function TikTok({ url }: TikTokProps) {
     </Fragment>
   );
 }
-

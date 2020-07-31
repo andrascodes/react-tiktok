@@ -13,14 +13,14 @@ npm install --save react-tiktok
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-import MyComponent from 'react-tiktok'
-import 'react-tiktok/dist/index.css'
+import MyComponent from 'react-tiktok';
+import 'react-tiktok/dist/index.css';
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <MyComponent />;
   }
 }
 ```

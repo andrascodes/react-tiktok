@@ -3,12 +3,21 @@
   "version": "1.0.0",
   "homepage": "http://andrewszucs.github.io/react-tiktok",
   "description": "A React component for embedding TikTok videos",
-  "author": "andrewszucs",
+  "author": "András Szücs <andrew0szucs@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/andrewszucs/react-tiktok",
+  "repository": "git@github.com:andrewszucs/react-tiktok.git",
+  "private": false,
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
+  "types": "dist/index.d.ts",
+  "typings": "dist/index.d.ts",
+  "typescript": {
+    "definition": "dist/index.d.ts"
+  },
+  "files": [
+    "dist"
+  ],
   "engines": {
     "node": ">=10"
   },
@@ -21,7 +30,7 @@
     "test:lint": "eslint .",
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
-    "clean" : "gh-pages-clean",
+    "clean": "gh-pages-clean",
     "predeploy": "cd example && yarn install && yarn build",
     "deploy": "gh-pages -d example/build"
   },
@@ -61,8 +70,5 @@
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1",
     "typescript": "^3.7.5"
-  },
-  "files": [
-    "dist"
-  ]
+  }
 }

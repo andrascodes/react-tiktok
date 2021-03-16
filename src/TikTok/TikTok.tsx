@@ -87,7 +87,7 @@ export default function TikTok({ url }: TikTokProps) {
       .catch((err) => setError(err));
   }, [url]);
 
-  if (error) return <div>Error: {error}</div>;
+  if (error) return <div>Error: {JSON.stringify(error)}</div>;
 
   return (
     <Fragment>

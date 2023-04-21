@@ -3958,9 +3958,9 @@ decamelize@^1.2.0:
   integrity sha1-9lNNFRSCabIDUue+4m9QH5oZEpA=
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 dedent@^0.7.0:
   version "0.7.0"
@@ -5009,11 +5009,6 @@ fb-watchman@^2.0.0:
   integrity sha512-DkPJKQeY6kKwmuMretBhr7G6Vodr7bFwDYTXIkfG1gjvNpaxBTQV3PbXg6bR1c1UP4jPOX0jHUbbHANL9vRjVg==
   dependencies:
     bser "2.1.1"
-
-fetch-retry@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/fetch-retry/-/fetch-retry-4.0.1.tgz#ca746666399aaf0547aa3851ccb543cfb112b8da"
-  integrity sha512-EhIeVBkq9T2z1ANDr2kmLujoHOTdLvR9t/nzLSdX4PMIFinLyyZFYX9T6Fb3LrbiHQEhujq1O7ElsqjuqYIsEA==
 
 figgy-pudding@^3.5.1:
   version "3.5.2"
